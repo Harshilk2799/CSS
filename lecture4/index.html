@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+
+        /* Without box-sizing: border-box to increase width */
+
+        /* *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            padding: 50px;
+        } */
+
+        /* With box-sizing: border-box swing */
+
+        /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            padding: 50px;
+        } */
+
+
+        /* Display Property */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        p{
+            border: 1px solid red;
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            margin: 10px;
+            /* display: inline; */
+        }
+
+        span{
+            border: 1px solid black;
+            width: 500px;
+            height: 500px;
+            /* display: block; */
+            display: inline-block;
+
+            /* margin: 10px; */
+            /* padding: 20px; */
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box">
+        Welcome to Harshil
+    </div> -->
+    
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <span>Lorem ipsum dolor sit amet.</span>
+    <span>Lorem ipsum dolor sit amet.</span>
+    
+
+</body>
+</html>
