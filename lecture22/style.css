@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Global Variable */
+:root {
+  --primary-text-color: #222;
+  --secondary-text-color: #444;
+  --card-background-color: #fff;
+  --background-color: #eee;
+}
+.dark {
+  --primary-text-color: #fff;
+  --secondary-text-color: #ddd;
+  --card-background-color: #333;
+  --background-color: #111;
+}
+.container {
+  height: 100vh;
+  padding: 40px;
+  background-color: var(--background-color);
+}
+h1 {
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.box {
+  /* Local Variable */
+  /* --my-var: lightcoral;
+  background-color: var(--my-var); */
+  padding: 20px;
+  margin-block: 20px;
+  border-radius: 20px;
+  background-color: var(--card-background-color);
+}
+.box h2 {
+  color: var(--primary-text-color);
+  margin-bottom: 20px;
+}
+p {
+  color: var(--secondary-text-color);
+}
